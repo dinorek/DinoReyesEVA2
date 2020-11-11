@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imagen_logo">100dp</dimen>
+    <dimen name="titulo_app_size">20sp</dimen>
+    <dimen name="margin_left_titulo_app">40dp</dimen>
+    <dimen name="centrar_img">145dp</dimen>
+</resources>
