@@ -19,6 +19,7 @@
     <EditText
         android:layout_width="match_parent"
         android:id="@+id/nombreTxt"
+
         android:textSize="@dimen/size_pp"
         android:layout_marginTop="@dimen/margin_pp"
         android:layout_height="wrap_content">

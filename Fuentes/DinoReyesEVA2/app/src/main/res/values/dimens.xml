@@ -8,4 +8,6 @@
     <dimen name="margin_editTxt_pp">50dp</dimen>
     <dimen name="margin_titulo2">50dp</dimen>
     <dimen name="size_pp">30sp</dimen>
+    <dimen name="margin_left_paciente">40dp</dimen>
+    <dimen name="padding_toolbar">10dp</dimen>
 </resources>

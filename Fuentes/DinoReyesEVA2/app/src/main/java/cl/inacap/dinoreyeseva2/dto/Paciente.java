@@ -1,8 +1,9 @@
 package cl.inacap.dinoreyeseva2.dto;
 
+import java.io.Serializable;
 import java.text.DateFormat;
 
-public class Paciente {
+public class Paciente implements Serializable {
     private int rut;
     private String nombre;
     private  String apellido;
@@ -38,5 +39,15 @@ public class Paciente {
 
     public void setFechaExamen(DateFormat fechaExamen) {
         this.fechaExamen = fechaExamen;
+    }
+
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "rut=" + rut +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", fechaExamen=" + fechaExamen +
+                '}';
     }
 }

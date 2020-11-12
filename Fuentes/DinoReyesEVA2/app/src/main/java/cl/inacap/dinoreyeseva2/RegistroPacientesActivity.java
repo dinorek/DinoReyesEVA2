@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class RegistroPacientes extends AppCompatActivity {
-//Debe mostrar un formulario solicitando:
+public class RegistroPacientesActivity extends AppCompatActivity {
+    //Debe mostrar un formulario solicitando:
 //• Rut del Paciente: Debe ser un rut chileno válido en formato 12345678-9
 //• Nombre: String, obligatorio
 //• Apellido: String, obligatorio
@@ -25,4 +25,4 @@ public class RegistroPacientes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_pacientes);
     }
-}
+    }
