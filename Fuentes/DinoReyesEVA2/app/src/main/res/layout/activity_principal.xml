@@ -9,12 +9,26 @@
     tools:context=".PrincipalActivity">
     <include layout="@layout/toolbar">
     </include>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</LinearLayout>
 
     <ListView
-        android:layout_width="match_parent"
         android:id="@+id/pacientes_lv"
-
-        android:layout_height="wrap_content">
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_lv">
     </ListView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/floating_btn"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/floating_margin"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:src="@drawable/ic_baseline_agregar"
+        android:layout_height="wrap_content">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
 
 </LinearLayout>

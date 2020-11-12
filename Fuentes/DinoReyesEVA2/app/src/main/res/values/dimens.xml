@@ -11,4 +11,6 @@
     <dimen name="margin_left_paciente">30dp</dimen>
     <dimen name="padding_toolbar">10dp</dimen>
     <dimen name="margin_top_paciente">15dp</dimen>
+    <dimen name="floating_margin">16dp</dimen>
+    <dimen name="height_lv">513dp</dimen>
 </resources>

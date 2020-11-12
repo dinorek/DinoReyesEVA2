@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
@@ -46,5 +49,14 @@ public class PrincipalActivity extends AppCompatActivity {
 
             }
         });
+        FloatingActionButton agregar = findViewById(R.id.floating_btn);
+        agregar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(PrincipalActivity.this, RegistroPacientesActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }

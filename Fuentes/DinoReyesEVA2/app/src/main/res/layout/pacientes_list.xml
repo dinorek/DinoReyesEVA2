@@ -34,4 +34,39 @@
             android:layout_marginLeft="@dimen/margin_left_paciente"
             android:layout_height="wrap_content">
         </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/area_paciente_lv"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin_left_paciente"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/sintomas_paciente_lv"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin_left_paciente"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tos_paciente_lv"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin_left_paciente"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/temperatura_paciente_lv"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin_left_paciente"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/presionA_paciente_lv"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin_left_paciente"
+        android:layout_height="wrap_content">
+    </TextView>
     </LinearLayout>
