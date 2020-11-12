@@ -4,4 +4,8 @@
     <dimen name="titulo_app_size">20sp</dimen>
     <dimen name="margin_left_titulo_app">40dp</dimen>
     <dimen name="centrar_img">145dp</dimen>
+    <dimen name="margin_pp">140dp</dimen>
+    <dimen name="margin_editTxt_pp">50dp</dimen>
+    <dimen name="margin_titulo2">50dp</dimen>
+    <dimen name="size_pp">30sp</dimen>
 </resources>

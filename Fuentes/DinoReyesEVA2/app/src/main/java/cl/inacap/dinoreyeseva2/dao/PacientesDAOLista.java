@@ -5,6 +5,7 @@ import java.util.List;
 import cl.inacap.dinoreyeseva2.dto.Paciente;
 
 public class PacientesDAOLista implements PacientesDAO {
+    
     @Override
     public List<Paciente> getAll() {
         return null;

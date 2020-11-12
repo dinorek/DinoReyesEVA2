@@ -10,26 +10,33 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="INICAR SESIÓN"/>
+        android:layout_marginTop="@dimen/margin_titulo2"
+        android:textSize="@dimen/size_pp"
+        android:text="INICIAR SESIÓN"
+        android:layout_height="wrap_content"/>
 
     <EditText
         android:layout_width="match_parent"
         android:id="@+id/nombreTxt"
+        android:textSize="@dimen/size_pp"
+        android:layout_marginTop="@dimen/margin_pp"
         android:layout_height="wrap_content">
     </EditText>
 
     <EditText
         android:layout_width="match_parent"
         android:password="true"
+        android:textSize="@dimen/size_pp"
+        android:layout_marginTop="@dimen/margin_editTxt_pp"
         android:id="@+id/passwordTxt"
-
         android:layout_height="wrap_content">
     </EditText>
     <Button
         android:layout_width="match_parent"
         android:id="@+id/iniciarBtn"
+        android:textSize="@dimen/size_pp"
+        android:layout_marginTop="@dimen/margin_editTxt_pp"
         android:layout_height="wrap_content">
     </Button>
 </LinearLayout>
