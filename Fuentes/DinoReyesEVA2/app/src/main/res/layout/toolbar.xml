@@ -23,7 +23,8 @@
         </ImageView>
         <TextView
             android:layout_width="match_parent"
-            android:text="EXAMEN PREVENCIÓN COVID"
+            android:text="EXAMEN COVID"
+            android:id="@+id/titulo_toolbar"
             android:layout_marginLeft="@dimen/titulo_app_size"
             android:textSize="@dimen/titulo_app_size"
             android:layout_gravity="center"

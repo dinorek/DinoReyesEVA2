@@ -8,12 +8,14 @@
     tools:context=".VerPacienteActivity">
     <include layout="@layout/toolbar">
     </include>
-    <TextView
+    <ListView
         android:layout_width="match_parent"
-            android:text="Funciona"
-        android:gravity="center"
-        android:id="@+id/nombrePacienteTxt"
+        android:textSize="@dimen/titulo_app_size"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:gravity="center_horizontal"
+
+        android:id="@+id/Paciente_lv_verPaciente"
         android:layout_height="match_parent">
-    </TextView>
+    </ListView>
 
 </LinearLayout>

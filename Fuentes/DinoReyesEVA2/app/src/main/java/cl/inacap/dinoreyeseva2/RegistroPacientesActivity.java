@@ -3,8 +3,19 @@ package cl.inacap.dinoreyeseva2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class RegistroPacientesActivity extends AppCompatActivity {
+    private TextView nombrePacienteTxt;
+    private TextView apellidoPacienteTxt;
+    private TextView rutPacienteTxt;
+    private TextView fechaExamenTxt;
+    private TextView areaTrabajoTxt;
+    private TextView sintomasTxt;
+    private TextView tosTxt;
+    private TextView temperaturaTxt;
+    private TextView presionATxt;
+
     //Debe mostrar un formulario solicitando:
 //• Rut del Paciente: Debe ser un rut chileno válido en formato 12345678-9
 //• Nombre: String, obligatorio
@@ -24,5 +35,6 @@ public class RegistroPacientesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_pacientes);
+
     }
     }

@@ -31,7 +31,7 @@ public class PacientesArrayAdapter extends ArrayAdapter<Paciente> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = this.activity.getLayoutInflater();
         View fila = inflater.inflate(R.layout.pacientes_list, null, true);
-        TextView nombreTv = fila.findViewById(R.id.nombreTxt);
+        TextView nombreTv = fila.findViewById(R.id.nombre_paciente_lv);
         TextView rutTv = fila.findViewById(R.id.rut_paciente_lv);
         TextView apellidoTv = fila.findViewById(R.id.apellido_paciente_lv);
         TextView fechaTv = fila.findViewById(R.id.fecha_examen_paciente_lv);

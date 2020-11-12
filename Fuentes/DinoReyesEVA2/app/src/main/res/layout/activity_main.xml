@@ -18,7 +18,9 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/nombreTxt"
+        android:id="@+id/rutTxt"
+        android:hint="Ingrese Rut"
+        android:inputType="numberSigned"
 
         android:textSize="@dimen/size_pp"
         android:layout_marginTop="@dimen/margin_pp"
@@ -28,6 +30,7 @@
     <EditText
         android:layout_width="match_parent"
         android:password="true"
+        android:hint="Ingrese Password"
         android:textSize="@dimen/size_pp"
         android:layout_marginTop="@dimen/margin_editTxt_pp"
         android:id="@+id/passwordTxt"
@@ -35,9 +38,12 @@
     </EditText>
     <Button
         android:layout_width="match_parent"
-        android:id="@+id/iniciarBtn"
+        android:id="@+id/ingresarBtn"
+        android:hint="INGRESAR"
+        android:inputType="number"
         android:textSize="@dimen/size_pp"
         android:layout_marginTop="@dimen/margin_editTxt_pp"
+        android:background="@color/colorPrimary"
         android:layout_height="wrap_content">
     </Button>
 </LinearLayout>

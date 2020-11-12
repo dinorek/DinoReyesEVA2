@@ -10,19 +10,23 @@ import android.widget.AdapterView;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button;
+    private Button ingresarBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        button.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                Intent intent = new Intent(MainActivity.this, PrincipalActivity.class);
-                startActivity(intent);
-                return false;
-            }
+        ingresarBtn = findViewById(R.id.ingresarBtn);
+       ingresarBtn.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent i = new Intent(MainActivity.this, PrincipalActivity.class);
+               startActivity(i);
+
+
+           }
+
         });
     }
+
 }
