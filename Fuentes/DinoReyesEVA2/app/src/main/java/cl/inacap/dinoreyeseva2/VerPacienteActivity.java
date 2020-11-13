@@ -45,11 +45,11 @@ public class VerPacienteActivity extends AppCompatActivity {
             this.nombrePacienteTxt.setText(paciente.getNombre());
             this.rutPacienteTxt.setText(paciente.getRut());
             this.apellidoPacienteTxt.setText(paciente.getApellido());
-            this.fechaPacienteTxt.setText((CharSequence) paciente.getFechaExamen());
+            this.fechaPacienteTxt.setText(paciente.getFechaExamen());
             this.areaTrabajoPacienteTxt.setText(paciente.getAreaTrabajo());
-            this.sintomasPacienteTxt.setAllCaps(paciente.getSintomas());
-            this.tosPacienteTxt.setAllCaps(paciente.getTos());
-            this.temperaturaPacienteTxt.setText(paciente.getTemperatura());
+            this.sintomasPacienteTxt.setSelected(paciente.getSintomas());
+            this.tosPacienteTxt.setSelected(paciente.getTos());
+            this.temperaturaPacienteTxt.setText((int) paciente.getTemperatura());
             this.presionAPacienteTxt.setText(paciente.getPresionA());
             this.tituloToolbar.setText(paciente.getNombre());
 

@@ -1,18 +1,26 @@
 package cl.inacap.dinoreyeseva2.dto;
 
 import java.io.Serializable;
-import java.text.DateFormat;
 
 public class Paciente implements Serializable {
+    private int id;
     private int rut;
     private String nombre;
     private  String apellido;
-    private DateFormat fechaExamen;
+    private int fechaExamen;
     private String areaTrabajo;
     private Boolean sintomas;
     private Boolean tos;
-    private int temperatura;
+    private double temperatura;
     private String presionA;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public int getRut() {
         return rut;
@@ -38,11 +46,11 @@ public class Paciente implements Serializable {
         this.apellido = apellido;
     }
 
-    public DateFormat getFechaExamen() {
+    public int getFechaExamen() {
         return fechaExamen;
     }
 
-    public void setFechaExamen(DateFormat fechaExamen) {
+    public void setFechaExamen(int fechaExamen) {
         this.fechaExamen = fechaExamen;
     }
 
@@ -54,7 +62,7 @@ public class Paciente implements Serializable {
         this.areaTrabajo = areaTrabajo;
     }
 
-    public Boolean getSintomas() {
+    public boolean getSintomas() {
         return sintomas;
     }
 
@@ -62,7 +70,7 @@ public class Paciente implements Serializable {
         this.sintomas = sintomas;
     }
 
-    public Boolean getTos() {
+    public boolean getTos() {
         return tos;
     }
 
@@ -70,11 +78,11 @@ public class Paciente implements Serializable {
         this.tos = tos;
     }
 
-    public int getTemperatura() {
+    public double getTemperatura() {
         return temperatura;
     }
 
-    public void setTemperatura(int temperatura) {
+    public void setTemperatura(double temperatura) {
         this.temperatura = temperatura;
     }
 

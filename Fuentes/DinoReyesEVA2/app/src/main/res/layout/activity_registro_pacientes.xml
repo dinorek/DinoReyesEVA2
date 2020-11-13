@@ -4,14 +4,131 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".RegistroPacientesActivity">
-    //MOSTRAR FORMULARIO SOLICITANDO rutPaciente,NOMBRE apellido fechaExamenTxt AreaTrabajoTxt,sintomas,TOS,TEMPERATURA,PRESIONa
-    private TextView fechaExamenTxt;
-    private TextView areaTrabajoTxt;
-    private TextView sintomasTxt;
-    private TextView tosTxt;
-    private TextView temperaturaTxt;
-    private TextView presionATxt;
+    tools:context=".PrincipalActivity">
 
-</LinearLayout>
+    <include layout="@layout/toolbar">
+    </include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Rut Paciente:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/rut_paciente_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Nombre Paciente:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/nombre_paciente_txt_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Apellido Paciente:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/apellido_paciente_txt_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Fecha Examen:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <DatePicker
+        android:layout_width="@dimen/width_datepicker"
+        android:id="@+id/fecha_examen_paciente_date_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </DatePicker>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Area de Trabajo:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/areaT_paciente_spinner_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Presenta sintomas de covid?:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Switch
+        android:layout_width="match_parent"
+        android:id="@+id/sintomas_paciente_switch_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </Switch>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Temperatura Paciente:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:id="@+id/temperatura_paciente_txt_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Presenta tos el Paciente:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Switch
+        android:layout_width="match_parent"
+        android:id="@+id/tos_paciente_txt_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </Switch>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Presion Arterial:"
+        android:layout_marginTop="@dimen/margin_top_paciente"
+        android:textSize="@dimen/size_re_pa"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:id="@+id/presionA_paciente_txt_cd"
+        android:layout_height="@dimen/height_re_pa">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/registrar_btn"
+        android:text="REGISTRAR PACIENTE"
+        android:padding="@dimen/margin_top_paciente"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+    </LinearLayout>

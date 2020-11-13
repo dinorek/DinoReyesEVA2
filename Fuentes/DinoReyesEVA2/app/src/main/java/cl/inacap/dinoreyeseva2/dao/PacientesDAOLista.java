@@ -15,6 +15,11 @@ public class PacientesDAOLista implements PacientesDAO {
         p.getNombre();
         p.getApellido();
         p.getFechaExamen();
+        p.getAreaTrabajo();
+        p.getSintomas();
+        p.getTos();
+        p.getTemperatura();
+        p.getPresionA();
 
         pacientes.add(p);
 

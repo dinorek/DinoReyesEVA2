@@ -13,4 +13,8 @@
     <dimen name="margin_top_paciente">15dp</dimen>
     <dimen name="floating_margin">16dp</dimen>
     <dimen name="height_lv">513dp</dimen>
+    <dimen name="margin_floatBtn">20dp</dimen>
+    <dimen name="size_re_pa">10dp</dimen>
+    <dimen name="height_re_pa">30dp</dimen>
+    <dimen name="width_datepicker">40dp</dimen>
 </resources>

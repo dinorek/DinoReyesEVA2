@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimary"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -13,6 +14,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/margin_titulo2"
         android:textSize="@dimen/size_pp"
+        android:background="@color/colorPrimaryLight"
         android:text="INICIAR SESIÓN"
         android:layout_height="wrap_content"/>
 
@@ -20,8 +22,8 @@
         android:layout_width="match_parent"
         android:id="@+id/rutTxt"
         android:hint="Ingrese Rut"
-        android:inputType="numberSigned"
-
+        android:inputType="number"
+android:background="@color/colorPrimaryLight"
         android:textSize="@dimen/size_pp"
         android:layout_marginTop="@dimen/margin_pp"
         android:layout_height="wrap_content">
@@ -30,6 +32,7 @@
     <EditText
         android:layout_width="match_parent"
         android:password="true"
+        android:background="@color/colorPrimaryLight"
         android:hint="Ingrese Password"
         android:textSize="@dimen/size_pp"
         android:layout_marginTop="@dimen/margin_editTxt_pp"
@@ -43,7 +46,7 @@
         android:inputType="number"
         android:textSize="@dimen/size_pp"
         android:layout_marginTop="@dimen/margin_editTxt_pp"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:layout_height="wrap_content">
     </Button>
 </LinearLayout>

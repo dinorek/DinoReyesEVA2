@@ -9,5 +9,4 @@ public interface PacientesDAO {
     Paciente save(Paciente p);
 
 
-
 }

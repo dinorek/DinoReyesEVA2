@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:padding="@dimen/padding_toolbar"
+    android:layout_height="600dp">
     <TextView
         android:layout_width="match_parent"
-        android:id="@+id/nombre_paciente_lv"
+        android:id="@+id/rut_paciente_lv"
         android:layout_weight="1"
         android:gravity="center_horizontal"
         android:layout_marginLeft="@dimen/margin_left_paciente"
@@ -14,7 +15,8 @@
     </TextView>
     <TextView
         android:layout_width="match_parent"
-        android:id="@+id/rut_paciente_lv"
+        android:id="@+id/nombre_paciente_lv"
+        android:text="Nombre"
         android:layout_weight="1"
         android:layout_marginLeft="@dimen/margin_left_paciente"
         android:layout_height="wrap_content">
